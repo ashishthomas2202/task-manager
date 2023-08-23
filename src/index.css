@@ -7,11 +7,16 @@
   --gray: #e9e9e9;
 
   --border-radius: 25px;
-  --primary-font-family: ;
+  --primary-font-family: "Poppins", sans-serif;
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: var(--primary-font-family);
+}
+
+body {
+  width: 100vw;
 }

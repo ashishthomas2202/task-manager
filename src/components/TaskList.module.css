@@ -1,0 +1,14 @@
+.taskList {
+  width: 100%;
+  color: #ffffff;
+  background-color: var(--dark-gray);
+  border-radius: var(--border-radius);
+  padding: 25px;
+}
+
+.taskList main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px 0 10px;
+}
